@@ -1,16 +1,17 @@
 body {
+    display: grid;
     font-size: 16px;
     font-family: 'Karla', sans-serif; 
-    font-weight: 400px,700px;
     padding: 5% 10%;
-    margin: 20%;
-    padding-top: 0;    
+    margin: 16%;    
     background-image:
         url("https://i0.wp.com/frc2468.org/wp-content/uploads/2018/04/plain-blue-background.jpg?ssl=1");
     }
-@media screen and (min-width: 1440px) { 
-        .wrapper { 
-          margin: 1em 2em; 
+@media screen and (min-width: 1440px 375px) { 
+        body { 
+          display: grid; 
+          padding: 7em 7em;
+          margin: 10em;
         } 
       } 
 .wrapper {
@@ -78,7 +79,7 @@ h2 {
     background-color:  hsl(71, 73%, 54%);
     border-color: hsl(71, 73%, 54%);
     height: 50px;
-    width: 220px;
+    width: 200px;
     margin: 10%;
     text-align: center;
 }  
